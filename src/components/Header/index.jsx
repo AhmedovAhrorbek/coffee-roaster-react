@@ -5,9 +5,9 @@ const Header = () => {
   return (
      <div className="container">
           <div className="site__header">
-               <a className='site__header--link' href='../Home'>
+               <Link className='site__header--link' to='/home'>
                   <img className='site__header--link-logo' src={HeaderIcon} alt="header icon" width={236} height={26} />
-               </a>
+               </Link>
                <ul className="site__header--list">
                   <li className="site__header--item">
                      <Link to="/home">HOME</Link>
